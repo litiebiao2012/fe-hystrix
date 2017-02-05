@@ -25,7 +25,6 @@ public class FlowRateFilter implements Filter {
 
         try {
             FlowRateManager.flowRate(null,()->{
-
             },null);
         } catch (LimiterException e) {
             e.printStackTrace();
